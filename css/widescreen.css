@@ -1,0 +1,52 @@
+#what .items .item {
+    display: flex;
+    text-align: left;
+}
+#what .items .item i {
+    margin-right: 1.3rem;
+    margin-bottom: 0;
+    align-self: center;
+}
+
+#contact #map {
+    flex: 2;
+}
+/* mobile phone */
+@media screen and (max-width: 520px) {
+    #main-nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    #main-nav .logo {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    #main-nav ul {
+        padding: .5rem;
+    }
+    #showcase .showcase-content {
+    top: 120px;
+    }
+    #what .items {
+        display: block;
+        text-align: left;
+    }
+    #what .items .item i {
+        margin-right: 1.3rem;
+        margin-bottom: 0;
+        align-self: center;
+    }
+    
+    .who-we-are-img {
+        display: none;
+    }
+    #clients .items img {
+        width: 80%;
+    }
+    #clients .items div:last-child {
+        display: none;
+    }
+    #contact #map {
+        display: none;
+    }
+}

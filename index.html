@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" media="screen and (max-width: 1100px)" href="css/widescreen.css">
+    <title>EdgeLedger Financial | Accounting & Investment</title>
+</head>
+<body>
+    <nav id="main-nav">
+            <h1 class="logo">
+                <span class="text-primary"><i class="fas fa-book-open"></i> Edge</span>Ledger
+            </h1>
+            <ul>
+                <li><a href="#showcase">Home</a></li>
+                <li><a href="#what">What</a></li>
+                <li><a href="#who-we-are">Who</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+    </nav>
+    <header id="showcase" class="py-2">
+        <div class="showcase-content">
+            <h1>The Sky Is The Limit</h1>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae voluptatibus debitis praesentium inventore, eum deserunt.</p>
+            <a href="#who-we-are" class="btn btn-primary">Read More</a>
+        </div>
+    </header>
+    
+    <section id="what" class="text-center py-1">
+        <div class="container">
+            <h2 class="m-heading"><span class="text-primary">What</span> We Do</h2>
+            <div class="items">
+                <div class="item">
+                    <i class="fas fa-university fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-book-reader fa-2x"></i>
+                    <div>
+                        <h3>Investment Banking</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <i class="fas fa-pencil-alt fa-2x"></i>
+                    <div>
+                        <h3>Tax & Custodial</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, voluptatum!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="who-we-are">
+        <div class="who-we-are-img"></div>
+        <div class="who-we-are-content">
+            <h2 class="m-heading"><span class="text-primary">Who</span> We Are</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora culpa harum voluptas ratione enim consequuntur illo, atque, aut doloribus unde repellendus sit delectus beatae aspernatur placeat corrupti. Ipsa, itaque quas.</p>
+            <h3>Our Team</h3>
+            <ul>
+                <li>Mark Smith: CEO</li>
+                <li>Shannon Johnson: CFO</li>
+                <li>John Corbit: Lead Accountant</li>
+                <li>Janet Williams: Investment Manager</li>
+                <li>Kara Jackson: Senior Accountant</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="clients" class="text-center py-1">
+        <div class="container">
+            <h2 class="m-heading"><span class="text-primary">Our</span> Clients</h2>
+            <div class="items py-1">
+                <div><img src="/img/logos/logo1.png" alt="logo"></div>
+                <div><img src="/img/logos/logo2.png" alt="logo"></div>
+                <div><img src="/img/logos/logo3.png" alt="logo"></div>
+                <div><img src="/img/logos/logo4.png" alt="logo"></div>
+                <div><img src="/img/logos/logo5.png" alt="logo"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="contact-form p-2 bg-primary">
+            <h2 class="m-heading">Contact Us</h2>
+            <p class="lead">Please use the form below to contact us</p>
+            <form>
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" name="name" id="name" placeholder="Your Name">
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" name="email" id="email" placeholder="Your Email">
+                </div>
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="text" name="phone" id="phone" placeholder="(xxx) xxx-xxxx">
+                </div>
+                <div class="form-group">
+                    <label for="msg">Message</label>
+                    <textarea name="msg" id="msg" placeholder="Whats up?"></textarea>
+                </div>
+            <input type="submit" value="Send" class="btn-dark">
+            </form>
+        </div>
+        <div id="map"></div>
+    </section>
+    <footer id="footer" class="py-1 text-center">
+            <p>Copyright © 2019, EdgeLedger, All Rights Reserved</p>
+    </footer> 
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <!-- local js file -->
+    <script src="/js/main.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA2su6a0VugooLzJfczWsjaklEfMAd-VSs&callback=initMap"
+    async defer></script>
+
+</body>
+</html>
+
+<!-- api key for map AIzaSyA2su6a0VugooLzJfczWsjaklEfMAd-VSs -->
